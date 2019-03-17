@@ -1,5 +1,9 @@
 # OpenAdventureCapitalist
 
+A Phoenix [LiveView](https://github.com/phoenixframework/phoenix_live_view) experiment. A very simple implementation of [Adventure Capitalist](https://en.wikipedia.org/wiki/AdVenture_Capitalist).
+
+Warning: Game state is not persisted. Closing or refreshing the page loses all progress.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
@@ -8,13 +12,3 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
