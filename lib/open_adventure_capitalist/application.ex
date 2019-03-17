@@ -11,8 +11,8 @@ defmodule OpenAdventureCapitalist.Application do
       # Start the Ecto repository
       OpenAdventureCapitalist.Repo,
       # Start the endpoint when the application starts
-      OpenAdventureCapitalistWeb.Endpoint,
-      OpenAdventureCapitalist.Game
+      OpenAdventureCapitalistWeb.Endpoint
+      # OpenAdventureCapitalist.Game
       # Starts a worker by calling: OpenAdventureCapitalist.Worker.start_link(arg)
       # {OpenAdventureCapitalist.Worker, arg},
     ]
