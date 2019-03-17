@@ -53,7 +53,7 @@ config :open_adventure_capitalist, OpenAdventureCapitalistWeb.Endpoint,
       ~r{priv/gettext/.*(po)$},
       ~r{lib/open_adventure_capitalist_web/views/.*(ex)$},
       ~r{lib/open_adventure_capitalist_web/templates/.*(eex)$},
-      ~r{lib/demo_web/live/.*(ex)$}
+      ~r{lib/open_adventure_capitalist_web/live/.*(ex)$}
     ]
   ]
 

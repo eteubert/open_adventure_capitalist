@@ -72,7 +72,7 @@ module.exports = (env, options) => ({
     }),
     new PurgecssPlugin({
       paths: glob.sync(
-        '../lib/open_adventure_capitalist_web/@(templates|views)/**/*.@(html.eex|ex)'
+        '../lib/open_adventure_capitalist_web/@(templates|views|live)/**/*.@(html.eex|ex)'
       ),
       extractors: [{
         extractor: TailwindExtractor,
